@@ -1,6 +1,6 @@
-import sys
+import unittest
 from src.driver.scientific_calc import ScientificCalc
 
 
-def main():
+class ScientificCalcTest(unittest.TestCase):
     pass
