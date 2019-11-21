@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  description: This is the page to calculate e power x
+  version: "1.0.0"
+  title: Scientific Calculator
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+paths:
+ /src/diver/scientific_calc/ScientificCalc{power_value}:
+    get:
+      operationId: src.driver.scientific_calc.ScientificCalc.exponential_func
+      tags:
+          - e_power_x
+      summary: Calculate value for e power x
+      description: Calculate value for e power x
+      parameters:
+        - name: power_value
+          in: path
+          description: Enter x value
+          type: string
+          required: true
+      responses:
+        200:
+          description: Gives value for e power x
+          schema:
+            properties:
+              output:
+                type: number
