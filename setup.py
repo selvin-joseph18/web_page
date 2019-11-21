@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='expfunc_egg',
-    version='1.1',
+    version='1.0',
     packages=find_packages(),
     url='',
     entry_points={'setuptools.installation': ['eggsecutable = src.main.main:main'], },
