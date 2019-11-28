@@ -1,9 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ScientificCalculator",
-    version='1.2',
+
+    name='function_tanh',
+    version='1.0',
     packages=find_packages(),
-    entry_points={'setuptools.installation': ['eggsecutable = src.main.main:main']},
-    data_files=[('.', ["__main__.py", 'setup.py', 'requirements.txt'])],
+    data_files=[('.', ["__main__.py", "ReadMe.md", 'setup.py', 'requirements.txt'])],
+    entry_points={"setuptools.installation": ["eggsecutable=src.main.main:main"]}
 )
