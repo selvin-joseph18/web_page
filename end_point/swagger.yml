@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: This is the page to calculate e power x
+  description: This is the page to do Scientific Operations
   version: "1.0.0"
   title: Scientific Calculator
 consumes:
@@ -30,3 +30,28 @@ paths:
             properties:
               output:
                 type: number
+ /src/driver/scientific_calc/ScientificCalc/var_initialization/{base_no},{power_no}:
+    post:
+      operationId: src.driver.scientific_calc.ScientificCalc.var_initialization
+      tags:
+        - x_power_y
+      summary: Calculate value for x power y
+      description: Calculate value for x power y
+      parameters:
+        - name: base_no
+          in: path
+          description: Provides x value
+          type: string
+          required: true
+        - name: power_no
+          in: path
+          description: Provides y value
+          type: string
+          required: true
+      responses:
+        200:
+          description: Gives value for x power y
+          schema:
+            properties:
+              output:
+                type: integer
