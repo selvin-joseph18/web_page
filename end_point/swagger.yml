@@ -1,0 +1,35 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file for scientific calculator
+  version: "1.0.0"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /scientficcalculator
+paths:
+  /src/driver/scientific_calc/ScientificCalc{angle}:
+    get:
+      operationId: src.driver.scientific_calc.ScientificCalc.calculate_tanh
+      tags:
+        - tanh
+      summary: calculate value for tanh
+      description: calculate value for tanh
+      parameters:
+        - name: angle
+          in: path
+          type: integer
+          description: provide angle value
+          required: true
+      responses:
+        200:
+          description: give value for angle
+          schema:
+            type: number
+            items:
+              properties:
+                angle:
+                  type: integer
+
