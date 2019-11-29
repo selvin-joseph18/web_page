@@ -1,6 +1,7 @@
-from test.driver.ScientificCalc_Test import ScientificCalc_Test
+'''main function'''
+from test.driver.scientific_calc_test import ScientificCalcTest
 import unittest
 
 if __name__ == '__main__':
-    test_obj = ScientificCalc_Test()
+    TEST_OBJ = ScientificCalcTest()
     unittest.main()

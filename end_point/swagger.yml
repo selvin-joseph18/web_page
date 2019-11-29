@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file for scientific calculator
+  version: "1.0.0"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /scientificcalc
+paths:
+  /src/driver/scientific_calc/ScientificCalc{angle}:
+    post:
+      operationId: src.driver.scientific_calc.ScientificCalc.rad
+      tags:
+        - radian
+      summary: Read a number to find radians
+      description: Read a number
+      parameters:
+        - name: angle
+          in: path
+          type: string
+          description: Number of people to get from people
+          required: true
+      responses:
+        200:
+          description: Successfully read people list operation
+          schema:
+            items:
+              properties:
+                angle:
+                  type: integer
