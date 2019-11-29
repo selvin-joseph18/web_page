@@ -86,7 +86,7 @@ paths:
         parameters:
           - name: angle
             in: path
-            type: integer
+            type: string
             description: provide angle value
             required: true
         responses:
