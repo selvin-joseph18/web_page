@@ -1,0 +1,15 @@
+root - ERROR - could not convert string to float: 'string' - 2019-11-29 12:22:08,524 - 20 - scientific_calc - sin_func - C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py", line 17, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
+root - ERROR - could not convert string to float: 'string' - 2019-11-29 12:23:16,198 - 20 - scientific_calc - sin_func - C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py", line 17, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
+root - ERROR - could not convert string to float: 'string' - 2019-11-29 12:23:50,826 - 20 - scientific_calc - sin_func - C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py", line 17, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
