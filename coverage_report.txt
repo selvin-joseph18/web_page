@@ -1,0 +1,6 @@
+Name                  Stmts   Miss  Cover
+-----------------------------------------
+factorial_of_num.py      10      4    60%
+factorial_test.py        18      0   100%
+-----------------------------------------
+TOTAL                    28      4    86%

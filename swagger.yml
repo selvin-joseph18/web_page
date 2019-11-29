@@ -1,0 +1,34 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file for scientific calculator
+  version: "1.0.0"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+paths:
+  /src/driver/ScientificCalc/ScientificCalc{number}:
+    get:
+      operationId: src.driver.ScientificCalc.ScientificCalc.factorial_number
+      tags:
+        - calci
+      summary: Read a number to find factorial number
+      description: Read a number
+      parameters:
+        - name: number
+          in: path
+          type: integer
+          description: Number to find factorial number
+          required: true
+      responses:
+        200:
+          description: Successfully read people list operation
+          schema:
+            type: number
+            items:
+              properties:
+                number:
+                  type: integer
