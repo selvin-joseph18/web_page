@@ -1,6 +1,9 @@
+from src.driver import ScientificCalc as a
 import sys
-from src.driver.ScientificCalc import ScientificCalc
 
 
 def main():
-    pass
+    number = (sys.argv[1])
+    t=a.scientific_calc()
+    res = t.cube_root(number)
+    print(res)
