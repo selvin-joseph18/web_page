@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3d3a2f-aaf7-4956-a2a8-27f6ddb7ccc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cuber_oot.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuber_oot.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuber_oot.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuber_oot.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuber_oot.egg-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/End_Point/swagger.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -148,16 +143,6 @@
             <path>
               <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="End_Point" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/End_Point/swagger.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
