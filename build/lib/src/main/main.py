@@ -1,5 +1,4 @@
-from src.driver.ScientificCalc import ScientificCalc
-
+from src.driver.scientific_calc import ScientificCalc
 import sys
 
 

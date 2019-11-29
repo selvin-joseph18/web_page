@@ -1,0 +1,5 @@
+pylint == 1.9.5
+coverage == 4.5.4
+pip == 19.3.1
+connexion == 2.4.0
+
