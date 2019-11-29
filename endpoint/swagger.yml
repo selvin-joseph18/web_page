@@ -1,0 +1,35 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file for scientific calculator
+  version: "1.0.0"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+paths:
+  /src/driver/ScientificCalc/ScientificCalc{x_value}:
+    get:
+      operationId: src.driver.ScientificCalc.ScientificCalc.sine_h
+      tags:
+        - calci
+      summary: Read a number to find tanh calculation
+      description: Read a number
+      parameters:
+        - name: x_value
+          in: path
+          type: integer
+          description: Number of people to get from people
+          required: true
+      responses:
+        200:
+          description: Successfully read people list operation
+          schema:
+            type: number
+            items:
+              properties:
+                x_value:
+                  type: integer
+

@@ -1,6 +1,11 @@
+
 import sys
-from src.driver.ScientificCalc import ScientificCalc
+from src.driver.scientific_calc import ScientificCalc
+
 
 
 def main():
-    pass
+    num = float(sys.argv[1])
+    obj=ScientificCalc()
+    res = obj.sine_h(num)
+    print(res)
