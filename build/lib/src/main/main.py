@@ -4,7 +4,7 @@ import argparse
 import logging
 from src.exception.unnecessary_parameter_exception import UnnecessaryParameterException
 from src.driver.scientific_calc import ScientificCalc
-from src.exception.method_not_found_exception import MethodNotFoundException
+from  src.exception.method_not_found_exception import MethodNotFoundException
 
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
                     format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
@@ -48,6 +48,37 @@ def main():
                 raise UnnecessaryParameterException
             power = method_name[1]
             print(obj_power.sin_func(power))
+
+        elif method_name[0] == 'cube_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number = method_name[1]
+            print(obj_power.cube_root(number))
+        elif method_name[0] == 'square_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            x_value = method_name[1]
+            print(obj_power.square_root(x_value))
+        elif method_name[0] == 'rad':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            angle = method_name[1]
+            print(obj_power.rad(angle))
+        elif method_name[0] == 'one_by_x':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.one_by_x(number1))
+        elif method_name[0] == 'calculate_cos':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.calculate_cos(number1))
+        elif method_name[0] == 'tan_func':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            tan_result = method_name[1]
+            print(obj_power.tan_fun(tan_result))
         else:
             raise MethodNotFoundException
 

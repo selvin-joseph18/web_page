@@ -1,7 +1,6 @@
 """This module is to execute scientific calculator functions"""
 import math
 import logging
-
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
                     format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
                            '- %(lineno)d - %(module)s - %('
@@ -18,6 +17,11 @@ class ScientificCalc:
         self.base = 0
         self.angle = 0
         self.tanhx = 0
+        self.n_value = 0
+        self.x_value = 0
+        self.degree = 0
+        self.radian = 0
+        self.number = 0
 
     @classmethod
     def cal_power_ten(cls, pow_value):
@@ -92,6 +96,75 @@ class ScientificCalc:
         try:
             cls.value = math.sin(float(angle))
             return cls.value
+        except ValueError as error:
+            logging.exception(error)
+            print(error)
+            return "Please enter float or integer types input."
+
+    @classmethod
+    def cube_root(cls, n_value):
+        """function"""
+        try:
+
+            v_value = int(n_value)
+            if v_value > 0:
+                return v_value ** (0.33333333333333333333333333333333)
+
+            if v_value < 0:
+                return -(-v_value) ** (0.33333333333333333333333333333333)
+
+        except ValueError:
+            logging.error(ValueError)
+            return "ValueError"
+
+    @classmethod
+    def square_root(cls, x_value):
+        """function for calculating square root"""
+        try:
+            cls.x_value = int(x_value)
+            if cls.x_value >= 0:
+                return cls.x_value ** 0.5
+            elif cls.x_value < 0:
+                imaginary_no = complex(cls.x_value) ** 0.5
+                return imaginary_no
+        except ValueError:
+            logging.error(ValueError)
+            return "expecting integer value"
+
+    @classmethod
+    def rad(cls, angle):
+        '''calculate radians'''
+
+        try:
+            cls.degree = float(angle)
+            constpi = math.pi
+            cls.radian = cls.degree * (constpi / 180)
+            return cls.radian
+        except ValueError as ex:
+            logging.error(ex)
+            return "Value Error"
+
+    @classmethod
+    def one_by_x(cls, number):
+        """returns 1/x"""
+        try:
+            return float(1) / float(number)
+        except ZeroDivisionError:
+            logging.warning("division with zero cannot be performed")
+            return "ZeroDivisionError"
+        except ValueError:
+            logging.warning("give an integer")
+            return "ValueError"
+
+    @classmethod
+    def calculate_cos(cls, angle):
+        '''
+        Function to calculate Cosine of an angle
+         '''
+        try:
+            cls.angle=float(angle)
+            cls.result = math.cos(cls.angle)
+            return cls.result
         except ValueError as error:
             logging.exception(error)
             print(error)

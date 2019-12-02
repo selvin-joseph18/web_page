@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+2019-11-29 15:52:29,782:ERROR:must be real number, not str
+=======
+<<<<<<< HEAD
 root - ERROR - could not convert string to float: 'string' - 2019-11-29 12:22:08,524 - 20 - scientific_calc - sin_func - C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py
 Traceback (most recent call last):
   File "C:\Users\s.b.dhanapalan\Pycharm\ScientificCalculator\src\driver\scientific_calc.py", line 17, in sin_func
@@ -48,6 +51,7 @@ Traceback (most recent call last):
     base = float(base_no)
 >>>>>>> b405f71bbc91cc713782c97c443adea95cbeff2e
 ValueError: could not convert string to float: 'string'
+<<<<<<< HEAD
 root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 15:57:07,047 - 29 - scientific_calc - cal_power_ten - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
 root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 15:57:07,048 - 41 - scientific_calc - exponential_func - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
 Traceback (most recent call last):
@@ -74,3 +78,93 @@ Traceback (most recent call last):
   File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 67, in var_initialization
     base = float(base_no)
 ValueError: could not convert string to float: 'string'
+=======
+>>>>>>> 80d716df37f1708006fe26c5251078a55fd3fe93
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:11:29,546 - 33 - scientific_calc - cal_power_ten - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'string' - 2019-12-02 16:11:29,548 - 100 - scientific_calc - sin_func - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 97, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:11:29,549 - 117 - scientific_calc - cube_root - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:11:29,549 - 45 - scientific_calc - exponential_func - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 40, in exponential_func
+    cls.power = float(power_value)
+ValueError: could not convert string to float: 'accenture'
+root - ERROR - could not convert string to float: 'abc' - 2019-12-02 16:11:29,551 - 144 - scientific_calc - rad - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:11:29,551 - 131 - scientific_calc - square_root - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'sss' - 2019-12-02 16:11:29,551 - 90 - scientific_calc - calculate_tanh - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 83, in calculate_tanh
+    cls.angle = float(cls.angle)
+ValueError: could not convert string to float: 'sss'
+root - ERROR - could not convert string to float: 'angle' - 2019-12-02 16:11:29,552 - 169 - scientific_calc - calculate_cos - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 165, in calculate_cos
+    cls.angle=float(angle)
+ValueError: could not convert string to float: 'angle'
+root - ERROR - invalid literal for int() with base 10: 'string' - 2019-12-02 16:11:29,553 - 75 - scientific_calc - var_initialization - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 72, in var_initialization
+    power = int(power_no)
+ValueError: invalid literal for int() with base 10: 'string'
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:12:24,241 - 33 - scientific_calc - cal_power_ten - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'string' - 2019-12-02 16:12:24,241 - 100 - scientific_calc - sin_func - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 97, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:12:24,242 - 117 - scientific_calc - cube_root - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:12:24,243 - 45 - scientific_calc - exponential_func - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 40, in exponential_func
+    cls.power = float(power_value)
+ValueError: could not convert string to float: 'accenture'
+root - ERROR - could not convert string to float: 'abc' - 2019-12-02 16:12:24,244 - 144 - scientific_calc - rad - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:12:24,244 - 131 - scientific_calc - square_root - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'sss' - 2019-12-02 16:12:24,245 - 90 - scientific_calc - calculate_tanh - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 83, in calculate_tanh
+    cls.angle = float(cls.angle)
+ValueError: could not convert string to float: 'sss'
+root - ERROR - could not convert string to float: 'angle' - 2019-12-02 16:12:24,246 - 169 - scientific_calc - calculate_cos - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 165, in calculate_cos
+    cls.angle=float(angle)
+ValueError: could not convert string to float: 'angle'
+root - ERROR - invalid literal for int() with base 10: 'string' - 2019-12-02 16:12:24,247 - 75 - scientific_calc - var_initialization - C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\jayasree.suresh\PycharmProjects\SciCalc\src\driver\scientific_calc.py", line 72, in var_initialization
+    power = int(power_no)
+ValueError: invalid literal for int() with base 10: 'string'
+>>>>>>> 644817240ad162c721414f4f276fbaacebb26b5b
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:55:24,609 - 33 - scientific_calc - cal_power_ten - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:55:24,609 - 117 - scientific_calc - cube_root - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'accenture' - 2019-12-02 16:55:24,609 - 45 - scientific_calc - exponential_func - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 40, in exponential_func
+    cls.power = float(power_value)
+ValueError: could not convert string to float: 'accenture'
+root - ERROR - could not convert string to float: 'abc' - 2019-12-02 16:55:24,609 - 144 - scientific_calc - rad - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'string' - 2019-12-02 16:55:24,609 - 100 - scientific_calc - sin_func - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 97, in sin_func
+    cls.value = math.sin(float(angle))
+ValueError: could not convert string to float: 'string'
+root - ERROR - <class 'ValueError'> - 2019-12-02 16:55:24,609 - 131 - scientific_calc - square_root - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'sss' - 2019-12-02 16:55:24,609 - 90 - scientific_calc - calculate_tanh - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 83, in calculate_tanh
+    cls.angle = float(cls.angle)
+ValueError: could not convert string to float: 'sss'
+root - ERROR - could not convert string to float: 'angle' - 2019-12-02 16:55:24,609 - 169 - scientific_calc - calculate_cos - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 165, in calculate_cos
+    cls.angle=float(angle)
+ValueError: could not convert string to float: 'angle'
+root - ERROR - invalid literal for int() with base 10: 'string' - 2019-12-02 16:55:24,609 - 75 - scientific_calc - var_initialization - C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py
+Traceback (most recent call last):
+  File "C:\Users\novin.patrick\PycharmProjects\ScientificCalculator\src\driver\scientific_calc.py", line 72, in var_initialization
+    power = int(power_no)
+ValueError: invalid literal for int() with base 10: 'string'

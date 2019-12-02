@@ -1,8 +1,6 @@
-"""This module is used to unit test the scientific operation"""
+from src.driver.scientific_calc import ScientificCalc
 import unittest
 import math
-from src.driver.scientific_calc import ScientificCalc
-
 
 class ScientificCalcTest(unittest.TestCase):
     """This class is used to test the scientific operations"""
@@ -143,26 +141,6 @@ class ScientificCalcTest(unittest.TestCase):
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.var_initialization(2.2, 2), pow(2.2, 2))
 
-    def test_x_power_y_posfloat_negint(self):
-        """When power is negative integer and base is positive float value"""
-        test_obj = ScientificCalc()
-        self.assertEqual(test_obj.var_initialization(2.2, -2), pow(2.2, -2))
-
-    def test_x_power_y_negfloat_posint(self):
-        """When power is positive integer and base is negative float value"""
-        test_obj = ScientificCalc()
-        self.assertEqual(test_obj.var_initialization(-2.2, 2), pow(-2.2, 2))
-
-    def test_x_power_y_negfloat_negint(self):
-        """When power is negative integer and base is negative float value"""
-        test_obj = ScientificCalc()
-        self.assertEqual(test_obj.var_initialization(-2.2, -2), pow(2.2, -2))
-
-    def test_x_power_y_string_num(self):
-        """When power is positive integer and base is string"""
-        test_obj = ScientificCalc()
-        self.assertEqual(test_obj.var_initialization("string", 2), "Value Error")
-
     def test_x_power_y_num_string(self):
         """When power is string and base is positive integer"""
         test_obj = ScientificCalc()
@@ -187,6 +165,105 @@ class ScientificCalcTest(unittest.TestCase):
         """test case for sin(string)"""
         calc = ScientificCalc()
         self.assertEqual(calc.sin_func('string'), 'Please enter float or integer types input.')
+
+    def test_cube_root(self):
+        """test case for check cube root"""
+        test = ScientificCalc()
+        self.assertEqual(test.cube_root(8), 2)
+
+    def test_cube_root_negative(self):
+        """test case for check cube root"""
+        test = ScientificCalc()
+        self.assertEqual(test.cube_root(-8), -2)
+
+    def test_cube_root1(self):
+        """test case for exception"""
+        test = ScientificCalc()
+        self.assertEqual(test.cube_root("hai"), "ValueError")
+
+    def test_square_root_positive(self):
+        """test case for positive value"""
+        test = ScientificCalc()
+        self.assertEqual(test.square_root(4), 2.0)
+
+    def test_square_root_negative(self):
+        """test case for negative value"""
+        test = ScientificCalc()
+        self.assertEqual(test.square_root(-8), complex(1.7319121124709868e-16 + 2.8284271247461903j))
+
+    def test_square_root_string(self):
+        """test case if we give string"""
+        test = ScientificCalc()
+        self.assertEqual(test.square_root("a"), "expecting integer value")
+
+    def test_rad_zero(self):
+        '''check for zero'''
+        calc = ScientificCalc()
+        self.assertEqual(calc.rad(0), 0)
+
+    def test_rad_positive(self):
+        '''check for positive integers'''
+        calc = ScientificCalc()
+        self.assertEqual(calc.rad(1), 0.017453292519943295)
+
+    def test_rad_negative(self):
+        '''check for negative integers'''
+        calc = ScientificCalc()
+        self.assertEqual(calc.rad(-1), -0.017453292519943295)
+
+    def test_rad_posfloat(self):
+        '''check for positive float '''
+        calc = ScientificCalc()
+        self.assertAlmostEqual(calc.rad(2.5), 0.04363323129985824)
+
+    def test_rad_negfloat(self):
+        '''check for negative float'''
+        calc = ScientificCalc()
+        self.assertEqual(calc.rad(-4.5), -0.07853981633974483)
+
+    def test_rad_string(self):
+        '''check for exception'''
+        calc = ScientificCalc()
+        self.assertEqual(calc.rad("abc"), "Value Error")
+
+    def test_one_by_x_value(self):
+        """input=1"""
+        calc = ScientificCalc()
+        res = calc.one_by_x(1)
+        self.assertEqual(res, 1)
+
+    def test_one_by_x_zero_division_error(self):
+        """input=0"""
+        calc = ScientificCalc()
+        self.assertEqual(calc.one_by_x(0), "ZeroDivisionError")
+
+    def test_one_by_x_value_error(self):
+        """input=giving string instead of number"""
+        calc = ScientificCalc()
+        result = calc.one_by_x("s")
+        self.assertEqual(result, "ValueError")
+
+    def test_one_by_x_value5(self):
+        """when we take 5 as input"""
+        calc = ScientificCalc()
+        result = calc.one_by_x(5)
+        self.assertEqual(result, 0.2)
+
+    def test_positive_angle_values(self):
+        scientificcalc = ScientificCalc()
+        self.assertEqual(0.15425144988758405, scientificcalc.calculate_cos(30))
+
+    def test_negative_angle_values(self):
+        scientificcalc = ScientificCalc()
+        self.assertEqual(-0.7596879128588213, scientificcalc.calculate_cos(-15))
+
+    def test_float_angle_values(self):
+        scientificcalc = ScientificCalc()
+        self.assertEqual(0.6090559761063562, scientificcalc.calculate_cos(30.5))
+
+    def test_type_exception(self):
+        scientificcalc = ScientificCalc()
+        self.assertRaises(TypeError, scientificcalc.calculate_cos('angle'))
 
     def test_tan_fun_pos(self):
         """function to test against negative input"""
