@@ -1,0 +1,5 @@
+root - ERROR -  - 2019-11-29 17:30:21,973 - 62 - main - main - ScientificCalculator-1.3-py3.7.egg\src\main\main.py
+Traceback (most recent call last):
+  File "ScientificCalculator-1.3-py3.7.egg\src\main\main.py", line 52, in main
+    raise MethodNotFoundException
+src.exception.method_not_found_exception.MethodNotFoundException
