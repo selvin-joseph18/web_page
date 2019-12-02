@@ -1,19 +1,98 @@
-import sys
-from src.driver.ScientificCalc import ScientificCalc
+"""This module is used for main method"""
+from __future__ import print_function
+import argparse
 import logging
-logging.basicConfig(filename="logarithm_file.log", level=logging.INFO,
-                    format='%(name)s - %(levelname)s - %(message)s',
-                    filemode='w')
+from src.exception.unnecessary_parameter_exception import UnnecessaryParameterException
+from src.driver.scientific_calc import ScientificCalc
+from  src.exception.method_not_found_exception import MethodNotFoundException
 
+logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
+                    format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
+                           '- %(lineno)d - %(module)s - %('
+                           'funcName)s - %(pathname)s')
 
 def main():
+    """This main function is used to get input from user and call the scientific calculator
+    functions, create object for scientific_calc class, passing parameters using Command Line
+    and calling the method"""
     try:
-        number = float(sys.argv[1])
-        class_obj = ScientificCalc()
-        print(class_obj.logarithm(number))
-    except ValueError as e:
-        logging.debug(e)
-    except TypeError as e:
-        logging.debug(e)
-    except Exception as e:
-        logging.debug(e)
+        obj_power = ScientificCalc()
+        parser = argparse.ArgumentParser()
+        parser.add_argument('--function', type=str, required=True, nargs='+')
+        args = parser.parse_args()
+        method_name = args.function
+        if method_name[0] == 'e_power_x':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            power = method_name[1]
+            print(obj_power.exponential_func(power))
+        elif method_name[0] == '10_power_x':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            power_val = method_name[1]
+            print(obj_power.cal_power_ten(power_val))
+        elif method_name[0] == 'x_power_y':
+            if len(method_name) > 3:
+                raise UnnecessaryParameterException
+            input_base = method_name[1]
+            input_power = method_name[2]
+            final_answer = obj_power.var_initialization(input_base, input_power)
+            print(final_answer)
+        elif method_name[0] == 'calculate_tanh':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            res = obj_power.calculate_tanh(method_name[1])
+            print(res)
+        elif method_name[0] == 'sin_func':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            power = method_name[1]
+            print(obj_power.sin_func(power))
+
+        elif method_name[0] == 'cube_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number = method_name[1]
+            print(obj_power.cube_root(number))
+        elif method_name[0] == 'square_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            x_value = method_name[1]
+            print(obj_power.square_root(x_value))
+        elif method_name[0] == 'rad':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            angle = method_name[1]
+            print(obj_power.rad(angle))
+        elif method_name[0] == 'one_by_x':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.one_by_x(number1))
+        elif method_name[0] == 'calculate_cos':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.calculate_cos(number1))
+        elif method_name[0] == 'tan_func':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            tan_result = method_name[1]
+            print(obj_power.tan_fun(tan_result))
+        elif method_name[0] == 'logarithm':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            log_result = method_name[1]
+            print(obj_power.logarithm(log_result))
+        else:
+            raise MethodNotFoundException
+
+    except IndexError as index:
+        print(index)
+        logging.exception(index)
+
+    except UnnecessaryParameterException as parameter:
+        logging.exception(parameter)
+
+    except MethodNotFoundException as parameter:
+        logging.exception(parameter)
