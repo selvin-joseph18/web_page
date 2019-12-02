@@ -46,31 +46,31 @@ class ScientificCalcTest(unittest.TestCase):
         """This function is used to unit test the scientific operation 10 power x
          for positive power value"""
         calculate_ten_power = ScientificCalc()
-        self.assertEqual(calculate_ten_power.cal_power_ten(2), 10**2)
+        self.assertEqual(calculate_ten_power.cal_power_ten(2), 10 ** 2)
 
     def test_10_power_x_neg_power(self):
         """This function is used to unit test the scientific operation 10 power x
         for negative power value"""
         calculate_ten_power = ScientificCalc()
-        self.assertEqual(calculate_ten_power.cal_power_ten(-2), 10**(-2))
+        self.assertEqual(calculate_ten_power.cal_power_ten(-2), 10 ** (-2))
 
     def test_10_power_x_zero_power(self):
         """This function is used to unit test the scientific operation 10 power x
         for zero power value"""
         calculate_ten_power = ScientificCalc()
-        self.assertEqual(calculate_ten_power.cal_power_ten(0), 10**0)
+        self.assertEqual(calculate_ten_power.cal_power_ten(0), 10 ** 0)
 
     def test_10_power_x_pos_dec_power(self):
         """This function is used to unit test the scientific operation 10 power x
         for positive_float power value"""
         calculate_ten_power = ScientificCalc()
-        self.assertEqual(calculate_ten_power.cal_power_ten(2.2), 10**2.2)
+        self.assertEqual(calculate_ten_power.cal_power_ten(2.2), 10 ** 2.2)
 
     def test_10_power_x_neg_dec_power(self):
         """This function is used to unit test the scientific operation 10 power x
         for negative_float power value"""
         calculate_ten_power = ScientificCalc()
-        self.assertEqual(calculate_ten_power.cal_power_ten(-2.2), 10**(-2.2))
+        self.assertEqual(calculate_ten_power.cal_power_ten(-2.2), 10 ** (-2.2))
 
     def test_10_power_x_exception_power(self):
         """This function is used to unit test the scientific operation 10 power
@@ -168,26 +168,42 @@ class ScientificCalcTest(unittest.TestCase):
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.var_initialization(2, "string"), "Value Error")
 
-
-    def test_case_positive(self):
+    def test_sin_case_positive(self):
         """test case for sin(30)"""
         calc = ScientificCalc()
         self.assertEqual(calc.sin_func('30'), -0.9880316240928618)
 
-
-    def test_case3_negative(self):
+    def test_sin_case3_negative(self):
         """test case for sin(-30)"""
         calc = ScientificCalc()
         self.assertEqual(calc.sin_func('-30'), 0.9880316240928618)
 
-
-    def test_case3_float(self):
+    def test_sin_case3_float(self):
         """test case for sin(30.8)"""
         calc = ScientificCalc()
         self.assertEqual(calc.sin_func('30.8'), -0.5777150444457317)
 
-
-    def test_case2_exception(self):
+    def test_sin_case2_exception(self):
         """test case for sin(string)"""
         calc = ScientificCalc()
         self.assertEqual(calc.sin_func('string'), 'Please enter float or integer types input.')
+
+    def test_tan_fun_pos(self):
+        """function to test against negative input"""
+        calc = ScientificCalc()
+        self.assertEqual(calc.tan_fun(90), -1.995200412)
+
+    def test_tan_fun_neg(self):
+        """function to test against positive input"""
+        calc = ScientificCalc()
+        self.assertEqual(calc.tan_fun(-90), 1.995200412)
+
+    def test_tan_fun_zero(self):
+        """function to test against zero input"""
+        calc = ScientificCalc()
+        self.assertEqual(calc.tan_fun(0), 0.0)
+
+    def test_tan_fun(self):
+        """function to test against random input"""
+        calc = ScientificCalc()
+        self.assertEqual(calc.tan_fun(56), -0.611273688)

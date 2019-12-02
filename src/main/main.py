@@ -48,6 +48,11 @@ def main():
                 raise UnnecessaryParameterException
             power = method_name[1]
             print(obj_power.sin_func(power))
+        elif method_name[0] == 'tan_func':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            tan_result = method_name[1]
+            print(obj_power.tan_fun(tan_result))
         else:
             raise MethodNotFoundException
 

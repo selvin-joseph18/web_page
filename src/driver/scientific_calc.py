@@ -7,11 +7,12 @@ logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
                            '- %(lineno)d - %(module)s - %('
                            'funcName)s - %(pathname)s')
 
+
 class ScientificCalc:
     """This class is used to calculate the scientific operations"""
 
-
     def __init__(self):
+        self.r_tan_f = 0
         self.power = 0
         self.result = 0
         self.base = 0
@@ -22,7 +23,7 @@ class ScientificCalc:
     def cal_power_ten(cls, pow_value):
         """This function is used to calculate ten power x value"""
         try:
-            cls.answer = 10**float(pow_value)
+            cls.answer = 10 ** float(pow_value)
             return cls.answer
         except ValueError as value_error:
             logging.error(value_error)
@@ -40,7 +41,6 @@ class ScientificCalc:
             logging.exception(error)
             print(error)
             return "Please enter float or integer types input."
-
 
     @classmethod
     def x_power_y(cls, base_val, power_val):
@@ -96,3 +96,14 @@ class ScientificCalc:
             logging.exception(error)
             print(error)
             return "Please enter float or integer types input."
+
+    @classmethod
+    def tan_fun(cls, tan_angle):
+        """check for the tangent value of a number"""
+        try:
+            tan_f = math.tan(float(tan_angle))
+            r_tan_f = round(tan_f, 9)
+            return r_tan_f
+
+        except ValueError as value_error:
+            logging.debug(value_error)
