@@ -10,10 +10,10 @@ def main():
     try:
         number = float(sys.argv[1])
         class_obj = ScientificCalc()
-        print class_obj.logarithm(number)
+        print(class_obj.logarithm(number))
     except ValueError as e:
-        logging.debug(e.message)
+        logging.debug(e)
     except TypeError as e:
-        logging.debug(e.message)
+        logging.debug(e)
     except Exception as e:
-        logging.debug(e.message)
+        logging.debug(e)

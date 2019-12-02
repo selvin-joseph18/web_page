@@ -18,18 +18,20 @@ class ScientificCalc:
         try:
             if number > 0:
                 k = math.log10(number)
+                print(k)
                 return k
             elif type(number) != int:
                 raise TypeError
             else:
                 raise ValueError
         except ValueError as value_error:
-            logging.error(value_error.message)
-            print "enter positive values"
+            logging.error(value_error)
+            print("enter positive values")
             return 'ValueError'
         except TypeError as type_error:
-            logging.error(type_error.message)
-            print "enter integer or float"
+            logging.error(type_error)
+            print("enter integer or float")
             return 'TypeError'
 
-
+ob=ScientificCalc()
+ob.logarithm("prasad")
