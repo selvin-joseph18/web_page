@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!C:\Users\p.venu.gopal\PycharmProjec\ScientificCalculator\venv\Scripts\python.exe
+=======
+#!C:\Users\p.venu.gopal\PycharmProjects\ScientificCalculator\venv\Scripts\python.exe
+>>>>>>> 65eef2b104b41a6fcf0e5e37f5f9572795ba5a77
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3.7'
 __requires__ = 'pip==19.0.3'
 import re
