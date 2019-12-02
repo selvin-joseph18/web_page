@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b8e7401f-7dc4-4311-aaee-0f81b6bf655e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/ScientificCalculator.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="a1c705da-b6ae-44a4-b0ed-b4feea874623" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="9c3d3a2f-aaf7-4956-a2a8-27f6ddb7ccc9" name="Default Changelist" comment="" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ScientificCalculator$Unittests_for_ScientificCalc_Test_ScientificCalc_Test_test3_rad.coverage" NAME="Unittests for ScientificCalc_Test.ScientificCalc_Test.test3_rad Coverage Results" MODIFIED="1574142938924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/driver" />
     <SUITE FILE_PATH="coverage/ScientificCalculator$Unittests_for_scientific_calc_test_ScientificCalcTest.coverage" NAME="Unittests for scientific_calc_test.ScientificCalcTest Coverage Results" MODIFIED="1574938308624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/driver" />
@@ -30,19 +41,80 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/end_point/__init__.py">
+=======
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/driver/ScientificCalc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/driver/ScientificCalc_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#32#47#0" expanded="true" />
+              </folding>
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__main__.py">
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/end_point/swagger.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+    </leaf>
+  </component>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/driver/scientific_calc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -50,11 +122,18 @@
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/End_Point/swagger.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -62,11 +141,23 @@
               <folding>
                 <element signature="e#20#35#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/cube_root.egg-info/dependency_links.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/test/driver/scientific_calc_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -74,6 +165,21 @@
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/test/main/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
             </state>
           </provider>
         </entry>
@@ -83,13 +189,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="HTML File" />
+=======
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
         <option value="Python Script" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+=======
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+  <component name="Git.Settings">
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -100,6 +214,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/requirements" />
         <option value="$PROJECT_DIR$/radian.py" />
@@ -116,10 +231,33 @@
         <option value="$PROJECT_DIR$/src/driver/ScientificCalc.py" />
         <option value="$PROJECT_DIR$/test/driver/scientific_calc_test.py" />
         <option value="$PROJECT_DIR$/src/main/main.py" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/test/main/main.py" />
+        <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/src/main/main.py" />
+        <option value="$PROJECT_DIR$/test/driver/ScientificCalc_Test.py" />
+        <option value="$PROJECT_DIR$/src/driver/ScientificCalc.py" />
+        <option value="$PROJECT_DIR$/endpoint/swagger.yml" />
+=======
+        <option value="$PROJECT_DIR$/src/driver/ScientificCalc.py" />
+        <option value="$PROJECT_DIR$/test/driver/ScientificCalc_Test.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/requirements" />
+        <option value="$PROJECT_DIR$/src/main/main.py" />
+        <option value="$PROJECT_DIR$/End_Point/swagger.yml" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/test/main/main.py" />
+        <option value="$PROJECT_DIR$/test/driver/__init__.py" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/cube_root.egg-info/dependency_links.txt" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -185,11 +323,89 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="driver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="-6" />
+    <option name="width" value="864" />
+=======
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScientificCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScientificCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ScientificCalculator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\p.venu.gopal\PycharmProject\ScientificCalculator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+=======
+              <item name="cube_root.egg-info" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -206,6 +422,24 @@
       <recent name="C:\Users\karishma.murali\PycharmProjects\ScientificCalculator" />
     </key>
   </component>
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+<<<<<<< HEAD
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\deepthi.nannapaneni\PycharmProject\ScientificCalculator" />
+    </key>
+  </component>
+=======
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -218,6 +452,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.scientific_calc_test">
     <configuration name="scientific_calc_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ScientificCalculator" />
@@ -302,6 +537,12 @@
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test.driver.scientific_calc_test.ScientificCalc_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+<<<<<<< HEAD
+=======
+  <component name="RunManager" selected="Python tests.Unittests for ScientificCalc_Test.TestCubeRoot">
+    <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
       <module name="ScientificCalculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,6 +551,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.driver.scientific_calc_test.ScientificCalc_Test&quot;" />
@@ -317,6 +559,14 @@
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test.driver.scientific_calc_test.ScientificCalc_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ScientificCalc_Test.TestCubeRoot&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
       <module name="ScientificCalculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,6 +575,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.driver.scientific_calc_test.ScientificCalc_Test&quot;" />
@@ -332,6 +583,14 @@
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test.driver.scientific_calc_test.ScientificCalc_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ScientificCalc_Test.TestCubeRoot.test_cube_root&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root_negative" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
       <module name="ScientificCalculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,6 +599,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.driver.scientific_calc_test.ScientificCalc_Test&quot;" />
@@ -371,11 +631,28 @@
       </list>
     </recent_temporary>
   </component>
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ScientificCalc_Test.TestCubeRoot.test_cube_root_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for ScientificCalc_Test.TestCubeRoot" />
+        <item itemvalue="Python tests.Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root_negative" />
+        <item itemvalue="Python tests.Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="b8e7401f-7dc4-4311-aaee-0f81b6bf655e" name="Default Changelist" comment="" />
       <created>1574073884005</created>
       <option name="number" value="Default" />
@@ -462,10 +739,120 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+=======
+<<<<<<< HEAD
+      <changelist id="0a836eae-c46a-4cd8-b316-29125b61c1c3" name="Default Changelist" comment="" />
+      <created>1575015036957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575015036957</updated>
+    </task>
+    <task id="LOCAL-00001" summary="square_root">
+      <created>1575020434574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575020434574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="square_root">
+      <created>1575021738819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575021738819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="square_root">
+      <created>1575266258345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575266258345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+=======
+      <changelist id="9c3d3a2f-aaf7-4956-a2a8-27f6ddb7ccc9" name="Default Changelist" comment="" />
+      <created>1574943916020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574943916020</updated>
+    </task>
+    <task id="LOCAL-00001" summary="cuberoot functionality">
+      <created>1575012841305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575012841305</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cuberoot functionality">
+      <created>1575019860413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575019860413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cuberoot functionality">
+      <created>1575020620229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575020620229</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cuberoot functionality">
+      <created>1575021244452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575021244452</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cuberoot functionality">
+      <created>1575025962374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575025962374</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cuberoot functionality">
+      <created>1575026078865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575026078865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot - 2019.11.28 at 18h 04m 32s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot_test_cube_root - 2019.11.29 at 09h 58m 23s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot_test_cube_root - 2019.11.29 at 10h 10m 04s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot_test_cube_root_negative - 2019.11.29 at 10h 24m 01s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root_negative" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot_test_cube_root_negative - 2019.11.29 at 10h 24m 04s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot.test_cube_root_negative" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot - 2019.11.29 at 10h 24m 35s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ScientificCalc_Test_TestCubeRoot - 2019.11.29 at 12h 25m 30s.xml">
+      <configuration name="Unittests for ScientificCalc_Test.TestCubeRoot" configurationId="tests" />
+    </history-entry>
+  </component>
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -514,6 +901,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/driver/ScientificCalculatorLog.log">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+    <MESSAGE value="square_root" />
+    <option name="LAST_COMMIT_MESSAGE" value="square_root" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confile.log" />
+    <entry file="file://$PROJECT_DIR$/test/driver/ScientificCalc_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+=======
+    <MESSAGE value="cuberoot functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="cuberoot functionality" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/driver/ScientificCalc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__main__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/test/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,15 +1011,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/calculator.py" />
     <entry file="file://$PROJECT_DIR$/requirements">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/endpoint/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
@@ -543,10 +1043,35 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/swagger.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver/ScientificCalc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/driver/ScientificCalc.py" />
     <entry file="file://$PROJECT_DIR$/swagger.yml" />
     <entry file="file://$PROJECT_DIR$/end_point/__init__.py">
@@ -575,10 +1100,44 @@
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
+=======
+=======
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/driver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/driver/ScientificCalc_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#32#47#0" expanded="true" />
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -589,5 +1148,38 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/configfile.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/End_Point/swagger.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cube_root.egg-info/dependency_links.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 5cbf5afd1f7818e7929d0c0b88bcc50f1435e5a8
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
   </component>
 </project>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# This file must be dot sourced from PoSh; you cannot run it
 # directly. Do this: . ./activate.ps1
 
@@ -24,11 +25,36 @@ function global:deactivate ( [switch] $NonDestructive ){
     }
 
     if ( !$NonDestructive ) {
+=======
+function global:deactivate ([switch]$NonDestructive) {
+    # Revert to original values
+    if (Test-Path function:_OLD_VIRTUAL_PROMPT) {
+        copy-item function:_OLD_VIRTUAL_PROMPT function:prompt
+        remove-item function:_OLD_VIRTUAL_PROMPT
+    }
+
+    if (Test-Path env:_OLD_VIRTUAL_PYTHONHOME) {
+        copy-item env:_OLD_VIRTUAL_PYTHONHOME env:PYTHONHOME
+        remove-item env:_OLD_VIRTUAL_PYTHONHOME
+    }
+
+    if (Test-Path env:_OLD_VIRTUAL_PATH) {
+        copy-item env:_OLD_VIRTUAL_PATH env:PATH
+        remove-item env:_OLD_VIRTUAL_PATH
+    }
+
+    if (Test-Path env:VIRTUAL_ENV) {
+        remove-item env:VIRTUAL_ENV
+    }
+
+    if (!$NonDestructive) {
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
         # Self destruct!
         remove-item function:deactivate
     }
 }
 
+<<<<<<< HEAD
 # unset irrelevant variables
 deactivate -nondestructive
 
@@ -148,3 +174,29 @@ if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
 # GFULgNMRmIYP4KLvu9ylh5Gu3hvD5VNhH6+FlXANwFy07uXks5uF8mfZVxVCnodG
 # xkNCx+6PsrA5Z7WP4pXcmYnMn97npP/Q9EHJWw==
 # SIG # End signature block
+=======
+deactivate -nondestructive
+
+$env:VIRTUAL_ENV="C:\Users\p.venu.gopal\PycharmProjects\ScientificCalculator\venv"
+
+if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
+    # Set the prompt to include the env name
+    # Make sure _OLD_VIRTUAL_PROMPT is global
+    function global:_OLD_VIRTUAL_PROMPT {""}
+    copy-item function:prompt function:_OLD_VIRTUAL_PROMPT
+    function global:prompt {
+        Write-Host -NoNewline -ForegroundColor Green '(venv) '
+        _OLD_VIRTUAL_PROMPT
+    }
+}
+
+# Clear PYTHONHOME
+if (Test-Path env:PYTHONHOME) {
+    copy-item env:PYTHONHOME env:_OLD_VIRTUAL_PYTHONHOME
+    remove-item env:PYTHONHOME
+}
+
+# Add the venv to the PATH
+copy-item env:PATH env:_OLD_VIRTUAL_PATH
+$env:PATH = "$env:VIRTUAL_ENV\Scripts;$env:PATH"
+>>>>>>> 83b61c3510870c060d81b8618be93ad166c8b207
