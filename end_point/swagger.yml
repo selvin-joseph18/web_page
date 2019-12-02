@@ -10,23 +10,202 @@ produces:
 
 basePath: /scientificcalculator
 paths:
- /src/driver/scientific_calc/ScientificCalc/calculate_cos/{angle}:
+ /src/diver/scientific_calc/ScientificCalc/exponential_func{power_value}:
     post:
-      operationId: src.driver.scientific_calc.ScientificCalc.calculate_cos
+      operationId: src.driver.scientific_calc.ScientificCalc.exponential_func
       tags:
-        - cos
-      summary: Calculate value for cos
-      description: Calculate value for cos
+          - e_power_x
+      summary: Calculate value for e power x
+      description: Calculate value for e power x
       parameters:
-        - name: angle
+        - name: power_value
           in: path
-          description: Provides x value
-          type: number
+          description: Enter x value
+          type: string
           required: true
       responses:
         200:
-          description: Gives value for cos
+          description: Gives value for e power x
           schema:
             properties:
               output:
                 type: number
+ /src/driver/scientific_calc/ScientificCalc/var_initialization/{base_no},{power_no}:
+    post:
+      operationId: src.driver.scientific_calc.ScientificCalc.var_initialization
+      tags:
+        - x_power_y
+      summary: Calculate value for x power y
+      description: Calculate value for x power y
+      parameters:
+        - name: base_no
+          in: path
+          description: Provides x value
+          type: string
+          required: true
+        - name: power_no
+          in: path
+          description: Provides y value
+          type: string
+          required: true
+      responses:
+        200:
+          description: Gives value for x power y
+          schema:
+            properties:
+              output:
+                type: integer
+ /src/driver/scientific_calc/ScientificCalc/calculate_tanh{angle}:
+      post:
+        operationId: src.driver.scientific_calc.ScientificCalc.calculate_tanh
+        tags:
+          - tanh
+        summary: calculate value for tanh
+        description: calculate value for tanh
+        parameters:
+          - name: angle
+            in: path
+            type: string
+            description: provide angle value
+            required: true
+        responses:
+          200:
+            description: give value for angle
+            schema:
+              type: number
+              items:
+                properties:
+                  angle:
+                    type: integer
+ /src/driver/scientific_calc/ScientificCalc/sin_func{angle}:
+   post:
+     operationId: src.driver.scientific_calc.ScientificCalc.sin_func
+     tags:
+       - sin
+     summary: calculate value for sin
+     description: calculate value for sin
+     parameters:
+       - name: angle
+         in: path
+         type: string
+         description: provide angle value
+         required: true
+     responses:
+       200:
+         description: give value for angle
+         schema:
+           type: number
+           items:
+             properties:
+               angle:
+                 type: integer
+ /src/driver/scientific_calc/ScientificCalc/cube_root{n_value}:
+   post:
+     operationId: src.driver.scientific_calc.ScientificCalc.cube_root
+     tags:
+       - cube_root
+     summary: Read a number to find cube root of a number
+     description: Read a number to find cube root of a number
+     parameters:
+       - name: n_value
+         in: path
+         type: string
+         description: provide a number
+         required: true
+     responses:
+       200:
+         description: Gives the value of cube root of number
+         schema:
+           type: number
+           items:
+             properties:
+               number:
+                 type: integer
+
+ /src/driver/scientific_calc/ScientificCalc/square_root{x_value}:
+    post:
+      operationId: src.driver.scientific_calc.ScientificCalc.square_root
+      tags:
+        - square_root
+      summary: Read a number to find square root of a number
+      description: Read a number to find square root of a number
+      parameters:
+        - name: x_value
+          in: path
+          type: string
+          description: provide a number
+          required: true
+      responses:
+        200:
+          description: Gives the value of square root of number
+          schema:
+            type: number
+            items:
+              properties:
+                number:
+                  type: integer
+ /src/driver/scientific_calc/ScientificCalc/rad{angle}:
+    post:
+      operationId: src.driver.scientific_calc.ScientificCalc.rad
+      tags:
+        - radian
+      summary: Read a number to find radians
+      description: Read a number
+      parameters:
+        - name: angle
+          in: path
+          type: string
+          description: Number of people to get from people
+          required: true
+      responses:
+        200:
+          description: Successfully read people list operation
+          schema:
+            items:
+              properties:
+                angle:
+                  type: integer
+ /src/driver/scientific_calc/ScientificCalc/one_by_x{number}:
+     post:
+       operationId: src.driver.scientific_calc.ScientificCalc.one_by_x
+       tags:
+         - one_by_x
+       summary: Read a number to find one by x of a number
+       description: Read a number to find one by x of a number
+       parameters:
+         - name: number
+           in: path
+           type: string
+           description: provide a number
+           required: true
+       responses:
+         200:
+           description: Gives the value of one by x of number
+           schema:
+             type: number
+             items:
+               properties:
+                 number:
+                   type: integer
+ /src/driver/scientific_calc/ScientificCalc/calculate_cos/{angle}:
+   post:
+     operationId: src.driver.scientific_calc.ScientificCalc.calculate_cos
+     tags:
+       - cos
+     summary: Calculate value for cos
+     description: Calculate value for cos
+     parameters:
+       - name: angle
+         in: path
+         description: Provides x value
+         type: number
+         required: true
+     responses:
+       200:
+         description: Gives value for cos
+         schema:
+           type: number
+           items:
+               properties:
+                 number:
+                   type: integer
