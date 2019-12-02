@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
-  description: This is the page to do Scientific Operations
+  description: This is the swagger file for scientific calculator
   version: "1.0.0"
-  title: Scientific Calculator
+  title: Swagger ReST Article
 consumes:
   - application/json
 produces:
@@ -10,70 +10,23 @@ produces:
 
 basePath: /scientificcalculator
 paths:
- /src/driver/scientific_calc/ScientificCalc/cal_power_ten/{pow_value}:
+ /src/driver/scientific_calc/ScientificCalc/calculate_cos/{angle}:
     post:
-      operationId: src.driver.scientific_calc.ScientificCalc.cal_power_ten
+      operationId: src.driver.scientific_calc.ScientificCalc.calculate_cos
       tags:
-        - ten_power_y
-      summary: Calculate value for ten power x
-      description: Calculate value for ten power x
+        - cos
+      summary: Calculate value for cos
+      description: Calculate value for cos
       parameters:
-        - name: pow_value
+        - name: angle
           in: path
           description: Provides x value
-          type: integer
+          type: number
           required: true
       responses:
         200:
-          description: Gives value for ten power x
-          schema:
-            properties:
-              output:
-                type: integer
-
- /src/diver/scientific_calc/ScientificCalc/exponential_func{power_value}:
-    post:
-      operationId: src.driver.scientific_calc.ScientificCalc.exponential_func
-      tags:
-          - e_power_x
-      summary: Calculate value for e power x
-      description: Calculate value for e power x
-      parameters:
-        - name: power_value
-          in: path
-          description: Enter x value
-          type: string
-          required: true
-      responses:
-        200:
-          description: Gives value for e power x
+          description: Gives value for cos
           schema:
             properties:
               output:
                 type: number
- /src/driver/scientific_calc/ScientificCalc/var_initialization/{base_no},{power_no}:
-    post:
-      operationId: src.driver.scientific_calc.ScientificCalc.var_initialization
-      tags:
-        - x_power_y
-      summary: Calculate value for x power y
-      description: Calculate value for x power y
-      parameters:
-        - name: base_no
-          in: path
-          description: Provides x value
-          type: string
-          required: true
-        - name: power_no
-          in: path
-          description: Provides y value
-          type: string
-          required: true
-      responses:
-        200:
-          description: Gives value for x power y
-          schema:
-            properties:
-              output:
-                type: integer
-
