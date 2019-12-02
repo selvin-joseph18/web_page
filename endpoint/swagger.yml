@@ -11,7 +11,7 @@ produces:
 basePath: /api
 paths:
   /src/driver/ScientificCalc/ScientificCalc{number}:
-    get:
+    post:
       operationId: src.driver.ScientificCalc.ScientificCalc.one_by_x
       tags:
         - calculator
