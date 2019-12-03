@@ -10,7 +10,7 @@ produces:
 
 basePath: /scientificcalc
 paths:
-  /src/driver/scientific_calc/ScientificCalc/addition/{add_input1},{add_input2}:
+  /src/driver/scientific_calc/ScientificCalc/addition/{list_add}:
     post:
       operationId: src.driver.scientific_calc.ScientificCalc.addition
       tags:
@@ -18,20 +18,18 @@ paths:
       summary: Read 2 numbers to perform addition operation
       description: Read 2 numbers
       parameters:
-        - name: add_input1
+        - name: list_add
           in: path
-          type: string
-          required: true
-        - name: add_input2
-          in: path
-          type: string
+          type: array
+          items:
+            type: string
           required: true
       responses:
         200:
           description: Successfully performed addition
           schema:
             type: integer
-  /src/driver/scientific_calc/ScientificCalc/subtraction/{sub_input1},{sub_input2}:
+  /src/driver/scientific_calc/ScientificCalc/subtraction/{list_sub}:
     post:
       operationId: src.driver.scientific_calc.ScientificCalc.subtraction
       tags:
@@ -39,20 +37,18 @@ paths:
       summary: Read 2 numbers to perform subtraction operation
       description: Read 2 numbers
       parameters:
-        - name: sub_input1
+        - name: list_sub
           in: path
-          type: string
-          required: true
-        - name: sub_input2
-          in: path
-          type: string
+          type: array
+          items:
+            type: string
           required: true
       responses:
         200:
           description: Successfully performed subtraction
           schema:
             type: integer
-  /src/driver/scientific_calc/ScientificCalc/multiplication/{mul_input1},{mul_input2}:
+  /src/driver/scientific_calc/ScientificCalc/multiplication/{list_mul}:
     post:
       operationId: src.driver.scientific_calc.ScientificCalc.multiplication
       tags:
@@ -60,20 +56,18 @@ paths:
       summary: Read 2 numbers to perform multiplication operation
       description: Read 2 numbers
       parameters:
-        - name: mul_input1
+        - name: list_mul
           in: path
-          type: string
-          required: true
-        - name: mul_input2
-          in: path
-          type: string
+          type: array
+          items:
+            type: string
           required: true
       responses:
         200:
           description: Successfully performed multiplication
           schema:
             type: integer
-  /src/driver/scientific_calc/ScientificCalc/division/{div_input1},{div_input2}:
+  /src/driver/scientific_calc/ScientificCalc/division/{list_div}:
     post:
       operationId: src.driver.scientific_calc.ScientificCalc.division
       tags:
@@ -81,13 +75,11 @@ paths:
       summary: Read 2 numbers to perform division operation
       description: Read 2 numbers
       parameters:
-        - name: div_input1
+        - name: list_div
           in: path
-          type: string
-          required: true
-        - name: div_input2
-          in: path
-          type: string
+          type: array
+          items:
+            type: string
           required: true
       responses:
         200:

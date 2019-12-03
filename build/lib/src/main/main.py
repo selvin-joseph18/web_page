@@ -12,29 +12,25 @@ def main():
     args = parser.parse_args()
     method_name = args.function
     if method_name[0] == 'addition':
-        if len(method_name) > 3:
-            raise UnnecessaryParameterException
-        input1 = method_name[1]
-        input2 = method_name[2]
-        print(obj_power.addition(input1, input2))
+        add_list = []
+        for key in range(1,len(method_name)):
+            add_list.append(method_name[key])
+        print(obj_power.addition(add_list))
 
-    if method_name[0] == 'subtraction':
-        if len(method_name) > 3:
-            raise UnnecessaryParameterException
-        input1 = method_name[1]
-        input2 = method_name[2]
-        print(obj_power.subtraction(input1, input2))
+    elif method_name[0] == 'subtraction':
+        sub_list = []
+        for key in range(1, len(method_name)):
+            sub_list.append(method_name[key])
+        print(obj_power.subtraction(sub_list))
 
-    if method_name[0] == 'multiplication':
-        if len(method_name) > 3:
-            raise UnnecessaryParameterException
-        input1 = method_name[1]
-        input2 = method_name[2]
-        print(obj_power.multiplication(input1, input2))
+    elif method_name[0] == 'multiplication':
+        mul_list = []
+        for key in range(1, len(method_name)):
+            mul_list.append(method_name[key])
+        print(obj_power.multiplication(mul_list))
 
-    if method_name[0] == 'division':
-        if len(method_name) > 3:
-            raise UnnecessaryParameterException
-        input1 = method_name[1]
-        input2 = method_name[2]
-        print(obj_power.division(input1, input2))
+    elif method_name[0] == 'division':
+        div_list = []
+        for key in range(1, len(method_name)):
+            div_list.append(method_name[key])
+        print(obj_power.division(div_list))

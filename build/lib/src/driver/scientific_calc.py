@@ -16,49 +16,53 @@ class ScientificCalc:
         self.b_input = 0
 
     @classmethod
-    def addition(cls, add_input1, add_input2):
+    def addition(cls, list_add):
         """calculating addition function"""
-
+        sum = 0
         try:
-            cls.a_input = float(add_input1)
-            cls.b_input = float(add_input2)
-            return cls.a_input + cls.b_input
+            for i in list_add:
+                sum = sum + float(i)
+            return sum
+
         except ValueError as ex:
             print("ValueError")
             logging.error(ex)
             return "Enter only numbers"
 
     @classmethod
-    def subtraction(cls, sub_input1, sub_input2):
+    def subtraction(cls, list_sub):
         """calculating subtraction function"""
         try:
-            cls.a_input = float(sub_input1)
-            cls.b_input = float(sub_input2)
-            return cls.a_input - cls.b_input
+            sub = float(list_sub[0])
+            for i in range(1,len(list_sub)):
+                sub = sub - float(list_sub[i])
+            return sub
         except ValueError as ex:
             print("ValueError")
             logging.error(ex)
             return "Enter only numbers"
 
     @classmethod
-    def multiplication(cls, mul_input1, mul_input2):
+    def multiplication(cls, list_mul):
         """calculating multiply function"""
         try:
-            cls.a_input = float(mul_input1)
-            cls.b_input = float(mul_input2)
-            return cls.a_input * cls.b_input
+            mul = 1
+            for i in list_mul:
+                mul = mul * float(i)
+            return mul
         except ValueError as ex:
             print("ValueError")
             logging.error(ex)
             return "Enter only numbers"
 
     @classmethod
-    def division(cls, div_input1, div_input2):
+    def division(cls, list_div):
         """calculating divide function"""
         try:
-            cls.a_input = float(div_input1)
-            cls.b_input = float(div_input2)
-            return cls.a_input / cls.b_input
+            div = float(list_div[0])
+            for i in range(1,len(list_div)):
+                div = div / float(list_div[i])
+            return div
         except ValueError as ex:
             print("ValueError")
             logging.error(ex)
