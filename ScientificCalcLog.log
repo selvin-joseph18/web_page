@@ -1,3 +1,0 @@
-2019-11-29 13:06:58,818:INFO:127.0.0.1 - - [29/Nov/2019 13:06:58] "GET /api/src/driver/scientific_calc/ScientificCalc2 HTTP/1.1" 200 -
-2019-11-29 13:07:03,855:INFO:127.0.0.1 - - [29/Nov/2019 13:07:03] "GET /api/src/driver/scientific_calc/ScientificCalc-2 HTTP/1.1" 200 -
-2019-11-29 13:07:09,489:INFO:127.0.0.1 - - [29/Nov/2019 13:07:09] "GET /api/src/driver/scientific_calc/ScientificCalc2.2 HTTP/1.1" 200 -
