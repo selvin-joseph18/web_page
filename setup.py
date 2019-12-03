@@ -1,11 +1,9 @@
-
 from setuptools import setup, find_packages
 
 setup(
-
-    name='mypackage',
-    version='1.0.2',
-    data_files=[('.', ["__main__.py"])],
-    entry_points={'setuptools.installation': ['mypackage = src.main.main:main'], },
-    packages=find_packages(exclude=['*tests*']),
+    name="ScientificCalculator",
+    version='1.11',
+    packages=find_packages(),
+    entry_points={'setuptools.installation': ['eggsecutable = src.main.main:main']},
+    data_files=[('.', ["__main__.py", 'setup.py', 'requirements.txt'])],
 )
