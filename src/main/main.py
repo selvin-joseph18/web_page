@@ -1,6 +1,3 @@
-"""The main function to call cosh program """
-import argparse
-from src.driver.scientific_calc import ScientificCalc
 """This module is used for main method"""
 from __future__ import print_function
 import argparse
@@ -10,25 +7,12 @@ from src.driver.scientific_calc import ScientificCalc
 from src.exception.method_not_found_exception import MethodNotFoundException
 
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
-                    format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
-                           '- %(lineno)d - %(module)s - %('
-                           'funcName)s - %(pathname)s')
+                       format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
+                              '- %(lineno)d - %(module)s - %('
+                              'funcName)s - %(pathname)s')
+
 
 def main():
-    """get input and call the function"""
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--function', type=str, required=True, nargs='+')
-    args = parser.parse_args()
-    arguments = args.function
-    method_name = arguments[0]
-    number = arguments[1]
-    calc = ScientificCalc()
-    if method_name == 'trig_cosh':
-
-        res = calc.trig_cosh(number)
-        print(res)
-    else:
-        print("method not found")
     """This main function is used to get input from user and call the scientific calculator
     functions, create object for scientific_calc class, passing parameters using Command Line
     and calling the method"""
@@ -55,11 +39,62 @@ def main():
             input_power = method_name[2]
             final_answer = obj_power.var_initialization(input_base, input_power)
             print(final_answer)
-        elif method_name[0] == 'calculate_tanh':
+        elif method_name[0] == 'tanh':
             if len(method_name) > 2:
                 raise UnnecessaryParameterException
             res = obj_power.calculate_tanh(method_name[1])
             print(res)
+        elif method_name[0] == 'sin_func':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            power = method_name[1]
+            print(obj_power.sin_func(power))
+
+        elif method_name[0] == 'cube_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number = method_name[1]
+            print(obj_power.cube_root(number))
+        elif method_name[0] == 'square_root':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            x_value = method_name[1]
+            print(obj_power.square_root(x_value))
+        elif method_name[0] == 'rad':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            angle = method_name[1]
+            print(obj_power.rad(angle))
+        elif method_name[0] == 'one_by_x':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.one_by_x(number1))
+        elif method_name[0] == 'cos':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number1 = method_name[1]
+            print(obj_power.calculate_cos(number1))
+        elif method_name[0] == 'tan':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            tan_result = method_name[1]
+            print(obj_power.tan_fun(tan_result))
+        elif method_name[0] == 'log':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            log_result = method_name[1]
+            print(obj_power.logarithm(log_result))
+        elif method_name[0] == 'sineh':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            sinh_input = method_name[1]
+            print(obj_power.sine_h(sinh_input))
+        elif method_name[0] == 'cosh':
+            if len(method_name) > 2:
+                raise UnnecessaryParameterException
+            number = method_name[1]
+            print(obj_power.trig_cosh(number))
         else:
             raise MethodNotFoundException
 

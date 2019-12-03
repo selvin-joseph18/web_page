@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (ScientificCalculator)" project-jdk-type="Python SDK" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (ScientificCalculator) (2)" project-jdk-type="Python SDK" />
   <component name="PyCharmProfessionalAdvertiser">
@@ -9,4 +10,6 @@
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (ScientificCalculator) (3)" project-jdk-type="Python SDK" />
 >>>>>>> b405f71bbc91cc713782c97c443adea95cbeff2e
+=======
+>>>>>>> d130c38b5790f23715f75e9664db833a2266946b
 </project>
