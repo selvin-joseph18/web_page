@@ -1,9 +1,10 @@
+""" setup file to create egg"""
 from setuptools import setup, find_packages
 
 setup(
-    name="function_x_power_y",
-    version="1.0",
+    name="ScientificCalculator",
+    version='1.14',
     packages=find_packages(),
-    data_files=[('.', ["__main__.py", "ReadMe.md", 'setup.py', 'requirements.txt'])],
-    entry_points={"setuptools.installation": ["eggsecutable=src.main.main:main"]}
+    entry_points={'setuptools.installation': ['eggsecutable = src.main.main:main']},
+    data_files=[('.', ["__main__.py", 'setup.py', 'requirements.txt'])],
 )
