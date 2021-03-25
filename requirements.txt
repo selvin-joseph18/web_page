@@ -31,7 +31,7 @@ pylint==2.4.4
 pyparsing==2.4.5
 pyrsistent==0.15.5
 pytest-cov==2.8.1
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.22.0
 setuptools==40.8.0
 six==1.13.0
