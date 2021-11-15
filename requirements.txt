@@ -24,7 +24,7 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 more-itertools==7.2.0
 openapi-spec-validator==0.2.8
-pip==19.0.3
+pip==21.1
 packaging==19.2
 py==1.8.0
 pylint==2.4.4
